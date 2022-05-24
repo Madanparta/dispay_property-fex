@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.head_conter{
+    max-width: 1080px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    height: 60px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.a1{
+    margin: 10px;
+}
+.a1:hover{
+    color: gold;
+}
+.a2:hover{
+    color: gold;
+}
+/* U
+/* Using float */
+
+/* .branda_Name{
+    display: inline-block;
+    margin: 10px;
+    padding-left: 20px;
+    color: black;
+}
+nav{
+    float: right;
+    margin: 20px;
+    padding-right: 20px;
+} */
+
+/* using dislay fix property */
+.head_conter{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 50px;
+}
+.branda_Name{   
+    margin-top: 20px;
+}
+.nav1{
+    margin-top: 20px;
+}
+
+/* section one */
+main{
+    /* margin: 30px auto; */
+}
+article{
+    display: flex;
+}
+.section1{
+    margin-bottom: 20px;
+    background-color: rgb(247, 239, 239);
+    padding-top: 10px;
+}
+.midd{
+    text-align: justify;
+    max-width: 1080px;
+    height: 450px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 0px 50px;
+}
+.section_div1{
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+.section_p1{
+    max-width: 40%;
+}
+.section_div2{
+    max-width: 50%;
+    margin: 20px auto;
+}
+.teli{
+    height: 300px;
+    width: auto;
+}
+
+/* section 2 */
+.section2{
+    max-width: 1080px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    padding: 0px 50px;
+}
+.section2_div1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+}
+.img{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.part2{
+    height: 150px;
+    width: auto;
+    margin: 5px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(247, 239, 239);
+    height: 40px;
+}
+.section4{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.section4_1{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.a2{
+    margin: 10px;
+}
